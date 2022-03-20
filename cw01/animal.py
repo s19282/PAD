@@ -1,4 +1,5 @@
 import random
+from typing import Tuple
 
 
 class Animal:
@@ -16,9 +17,10 @@ class Animal:
         elif self.genus != partner.genus:
             print("Different genus")
         else:
-            Animal(self.genus, "Male" if random.randint(1, 10) > 5 else "Female")
+            return Animal(self.genus, "Male" if random.randint(1, 10) > 5 else "Female")
 
-    def __str__(self) -> str:
-        return super().__str__()
+    def __str__(self):
+        return f'----------------\nIs alive: {self.isAlive} ' \
+               f'\nGender: {self.gender} \nGenus: {self.genus}\n----------------'
 
-            
+
