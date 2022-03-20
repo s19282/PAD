@@ -1,5 +1,5 @@
-from cat import Cat
-from dog import Dog
+from z1.cat import Cat
+from z1.dog import Dog
 
 dogM = Dog("Male")
 dogF = Dog()
