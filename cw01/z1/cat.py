@@ -1,4 +1,4 @@
-from animal import Animal
+from z1.animal import Animal
 
 
 class Cat(Animal):

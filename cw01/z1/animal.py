@@ -1,5 +1,6 @@
 import random
 
+
 class Animal:
 
     def __init__(self, genus, gender="Female"):
@@ -16,5 +17,3 @@ class Animal:
     def __str__(self):
         return f'----------------\nIs alive: {self.isAlive} ' \
                f'\nGender: {self.gender} \nGenus: {self.genus}\n----------------'
-
-
