@@ -10,14 +10,10 @@ class Animal:
         self.genus = genus
 
     def breed(self, partner):
-        if self.gender != "Female":
-            print("NotFemale")
-        elif partner.gender != "Male":
-            print("PartnerNotMale")
-        elif self.genus != partner.genus:
-            print("Different genus")
-        else:
+        if self.gender == "Female" and self.genus == partner.genus and partner.gender == "Male":
             return Animal(self.genus, "Male" if random.randint(1, 10) > 5 else "Female")
+        else:
+            raise Exception('Attribute not found!')
 
     def __str__(self):
         return f'----------------\nIs alive: {self.isAlive} ' \
