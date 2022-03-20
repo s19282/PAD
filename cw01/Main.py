@@ -35,7 +35,7 @@ def avgSal(workers):
         sal += w.salary
         companySize += 1
 
-    print(f'AVG sal: {sal / companySize}')
+    print(f'----------------\nAVG sal: {sal / companySize}\n----------------')
 
 
 def avgSalWithAge(workers, age):
@@ -51,9 +51,8 @@ def avgSalWithAge(workers, age):
         else:
             salOlder += w.salary
             counterOlder += 1
-
-    print(f'Workers younger than {age} years old AVG salary: {salYounger / counterYounger}'
-          f'Workers older (or equal) than {age} years old AVG salary: {salOlder / counterOlder}')
+    print(f'----------------\nWorkers younger than {age} years old AVG salary: { 0 if salYounger==0 or counterYounger==0 else salYounger / counterYounger} '
+          f'\nWorkers older (or equal) than {age} years old AVG salary: {0 if salOlder==0 or counterOlder==0 else salOlder / counterOlder}\n----------------')
 
 
 avgSal(myList)
