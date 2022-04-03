@@ -7,7 +7,7 @@ df.fillna(df.mode().iloc[0], inplace=True)
 print(df['Country'].value_counts())
 # z2
 print("-----z2------")
-df['owned_goods'] = df['owns_car']+df['owns_TV']+df['owns_house']+df['owns_Phone']
+df['owned_goods'] = df['owns_car'] + df['owns_TV'] + df['owns_house'] + df['owns_Phone']
 print(df)
 # z3
 print("-----z3------")
