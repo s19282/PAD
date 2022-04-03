@@ -4,7 +4,7 @@ import random
 from Game import Game
 
 
-def clearConsole():
+def clear_console():
     if os.name == 'posix':
         os.system('clear')
     else:
@@ -38,40 +38,43 @@ class Hangman(Game):
         self.lettersToGuess = []
         self.word = ""
 
-    def selectMode(self):
+    def select_mode(self):
         while self.players == 0:
-            clearConsole()
+            clear_console()
             print("How may players(1 or 2)?")
             p = input()
             if p == '1' or p == '2':
                 self.players = int(p)
 
-    def selectDifficulty(self):
+    def select_difficulty(self):
         while self.maxMistakes == 0:
-            clearConsole()
+            clear_console()
             print("Select difficulty level!")
             print("BEGINNER/INTERMEDIATE/ADVANCED")
             p = input()
             if p.upper() in ['BEGINNER', 'INTERMEDIATE', 'ADVANCED']:
                 self.maxMistakes = self.difficulty[p.upper()]
 
+    def start_game(self):
+        self._play()
+
     def _play(self):
-        self.selectMode()
-        self.selectDifficulty()
+        self.select_mode()
+        self.select_difficulty()
         super()._play(self.players)
 
         if self.players == 1:
             self.word = self.words[random.randint(0, len(self.words) - 1)]
-            self.playSingle()
+            self.play_single()
         elif self.players == 2:
-            self.playMulti()
+            self.play_multi()
 
-    def playSingle(self):
+    def play_single(self):
         self.lettersToGuess = set(self.word)
         print(self.word)
         while self.mistakes < self.maxMistakes and len(self.lettersToGuess) > 0:
-            clearConsole()
-            self.printCoveredWord()
+            clear_console()
+            self.print_covered_word()
             letter = input('\nType Letter: ')
             if self.lettersToGuess.__contains__(letter):
                 self.guessedLetters.append(letter)
@@ -80,17 +83,17 @@ class Hangman(Game):
                 self.mistakes += 1
             print('Possible mistakes: ', self.maxMistakes - self.mistakes)
         if len(self.lettersToGuess) == 0:
-            self.printCoveredWord()
+            self.print_covered_word()
             print('\nYou won!')
         else:
             print('You lost!')
 
-    def playMulti(self):
+    def play_multi(self):
         self.word = input("Type a word: ")
-        clearConsole()
-        self.playSingle()
+        clear_console()
+        self.play_single()
 
-    def printCoveredWord(self):
+    def print_covered_word(self):
         for x in self.word:
             if self.guessedLetters.__contains__(x):
                 print(x, end='')
@@ -99,4 +102,4 @@ class Hangman(Game):
 
 
 game = Hangman()
-game._play()
+game.start_game()
