@@ -1,6 +1,8 @@
 import pandas as pd
-import statsmodels.api as smf
+import statsmodels.formula.api as smf
 from statsmodels.stats.weightstats import ttest_ind
+import plotly.graph_objects as go
+
 # z1
 
 df = pd.read_csv('PAD_09_PD.csv', delimiter=";")
@@ -13,6 +15,8 @@ print(res)
 
 # 2
 
-
-# model = smf.ols(formula='Annual_Income ~ Gender', data=income_df).fit()
-# print(model.summary())
+model = smf.ols(formula='Spending_Score ~ Gender + Age + Annual_Income', data=df).fit()
+print(model.summary())
+fig = go.Figure()
+model2 = smf.ols(formula='Spending_Score ~ + Age + Annual_Income', data=df).fit()
+print(model2.summary())
