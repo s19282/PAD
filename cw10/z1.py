@@ -1,8 +1,6 @@
-import streamlit as sl
+import streamlit as st
 import pandas as pd
-import numpy as np
 from streamlit_option_menu import option_menu
-import matplotlib.pyplot as plt
 import plotly.express as px
 
 selected = option_menu(
@@ -14,19 +12,19 @@ selected = option_menu(
     orientation='horizontal'
 )
 if selected == 'Questionnaire':
-    firstname = sl.text_input("First Name")
-    lastname = sl.text_input("Last Name")
-    if sl.button('Send'):
+    firstname = st.text_input("First Name")
+    lastname = st.text_input("Last Name")
+    if st.button('Send'):
         result = 'Questionnaire saved for: {} {}'.format(firstname.title(), lastname.title())
-        sl.success(result)
+        st.success(result)
 if selected == 'Stats':
-    data = sl.file_uploader("Load csv", type=['csv'])
+    data = st.file_uploader("Load csv", type=['csv'])
     if data is not None:
-        with sl.spinner("Loading..."):
+        with st.spinner("Loading..."):
             df = pd.read_csv(data)
-            sl.dataframe(df)
-        selected_visualization = sl.selectbox("Select visualisation", ("Type of clothes", "Tshirt quantity"))
-        container = sl.container()
+            st.dataframe(df)
+        selected_visualization = st.selectbox("Select visualisation", ("Type of clothes", "Tshirt quantity"))
+        container = st.container()
         if selected_visualization == "Type of clothes":
             fig = px.histogram(df['tshirt_type'], x='tshirt_type', title="Clothes type")
             container.plotly_chart(fig, use_container_width=True)
