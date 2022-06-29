@@ -139,6 +139,11 @@ df['damaged'].fillna('False', inplace=True)
 df['damaged'] = df['damaged'].str.replace('Tak', 'True')
 
 df.drop(['description', 'location', 'version', 'currency', 'priceDetails'], axis=1, inplace=True)
+df.rename(columns={'horse power': 'horsePower'}, inplace=True)
+df.rename(columns={'drive train': 'driveTrain'}, inplace=True)
+df.rename(columns={'body type': 'bodyType'}, inplace=True)
+df.rename(columns={'serviced at aso': 'ASOServiced'}, inplace=True)
+df.rename(columns={'first owner': 'firstOwner'}, inplace=True)
 
 print(df.columns)
 

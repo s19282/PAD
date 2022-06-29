@@ -1,4 +1,4 @@
-seller,make,model,year,capacity,fuel,horse power,transmission,drive train,body type,doors,seats,color,state,price,serviced at aso,first owner,damaged
+seller,make,model,year,capacity,fuel,horsePower,transmission,driveTrain,bodyType,doors,seats,color,state,price,ASOServiced,firstOwner,damaged
 Private,Chrysler,Town & Country,2015,3605,Petrol,283,Automatic,FWD,Minivan,5.0,7.0,Other,Used,43900,False,False,False
 Private,Seat,Alhambra,2009,1984,Petrol,115,Manual,FWD,Minivan,5.0,5.0,Other,Used,20900,True,False,False
 Private,Audi,A5,2012,1798,Petrol,170,Manual,,Sedan,5.0,,Brown,Used,55800,False,False,False
