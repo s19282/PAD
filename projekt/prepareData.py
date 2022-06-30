@@ -105,7 +105,9 @@ print(df['state'].unique())
 
 print(df['price'].unique())
 
-df['price'] = df['price'].str.replace('        PLN', '', regex=False).str.replace(' ', '')
+df['price'] = df['price'].str.replace('EUR', '')\
+                            .str.replace('        PLN', '', regex=False)\
+                            .str.replace(' ', '')
 
 print(df['price'].unique())
 

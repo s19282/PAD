@@ -376,7 +376,7 @@ Private,Suzuki,Ignis,2006,1328,Petrol,94,Manual,FWD,City cars,5.0,5.0,Silver,Use
 Private,Audi,A1,2016,1395,Petrol,125,Manual,,City cars,5.0,5.0,Gray,Used,61884,False,True,False
 Private,Ford,Fiesta,2020,1084,Petrol,75,Manual,FWD,City cars,5.0,5.0,Red,Used,49600,True,False,False
 Dealer,Audi,Q7,2010,2967,Diesel,240,Automatic,4WD (permanent),SUV,5.0,5.0,Brown,Used,59900,True,True,False
-Private,Volvo,C70,2001,1984,Petrol,163,Automatic,FWD,Cabriolet,2.0,4.0,Black,Used,10000EUR,False,False,False
+Private,Volvo,C70,2001,1984,Petrol,163,Automatic,FWD,Cabriolet,2.0,4.0,Black,Used,10000,False,False,False
 Private,Fiat,Panda,2012,1242,Petrol,69,Manual,,Minivan,5.0,2.0,White,Used,7378,False,False,False
 Private,BMW,1M,2014,2999,Petrol,460,Automatic,4WD (automatic),Compact,5.0,5.0,White,Used,134999,False,False,False
 Private,Volkswagen,Golf,2004,1598,Petrol,105,Manual,,station wagon,5.0,5.0,Silver,Used,8900,True,False,False
@@ -842,7 +842,7 @@ Private,Audi,A4,2002,1896,Diesel,100,Manual,FWD,station wagon,5.0,5.0,Gray,Used,
 Dealer,Peugeot,308,2014,1600,Diesel,120,Manual,FWD,Compact,5.0,5.0,Gray,Used,29400,True,False,False
 Dealer,Suzuki,SX4,2007,1586,Petrol,107,Manual,4WD (manual),Compact,5.0,5.0,Gray,Used,19900,True,False,False
 Private,Ford,Mondeo,2017,1997,Diesel,150,Manual,FWD,Sedan,5.0,5.0,Gray,Used,70900,True,True,False
-Private,Audi,A3,2008,1968,Diesel,170,Manual,,Compact,5.0,5.0,Silver,Used,4500EUR,True,False,False
+Private,Audi,A3,2008,1968,Diesel,170,Manual,,Compact,5.0,5.0,Silver,Used,4500,True,False,False
 Dealer,Peugeot,207,2006,1400,Petrol,80,Manual,FWD,Small cars,5.0,5.0,Silver,Used,10900,True,False,False
 Dealer,Opel,Zafira,2006,1600,Petrol,105,Manual,FWD,Minivan,5.0,7.0,Black,Used,12900,True,True,False
 Private,Opel,Astra,2004,1598,Petrol+LPG,105,Manual,FWD,City cars,5.0,5.0,Silver,Used,14900,False,False,False
@@ -1034,7 +1034,7 @@ Dealer,Kia,Sportage,2022,1598,Hybrid,180,Automatic,FWD,SUV,5.0,5.0,White,New,197
 Private,Kia,Optima,2012,1999,Petrol,165,Automatic,FWD,Sedan,4.0,5.0,Gray,Used,53900,True,False,False
 Private,Toyota,RAV4,1998,1998,Petrol,129,Manual,4WD (automatic),SUV,5.0,5.0,Silver,Used,14000,False,False,False
 Dealer,Chrysler,Pacifica,2019,3605,Petrol,300,Automatic,FWD,Minivan,5.0,7.0,White,Used,183147,False,True,False
-Private,MINI,Countryman,2012,1598,Petrol,98,Automatic,,SUV,4.0,5.0,Other,Used,10499EUR,False,True,False
+Private,MINI,Countryman,2012,1598,Petrol,98,Automatic,,SUV,4.0,5.0,Other,Used,10499,False,True,False
 Private,Honda,Accord,2005,2204,Diesel,140,Manual,FWD,Sedan,4.0,5.0,Gray,Used,20990,False,False,False
 Private,Hyundai,i40,2011,1999,Petrol,177,Automatic,FWD,station wagon,5.0,5.0,Silver,Used,42500,False,False,False
 Dealer,Kia,Sportage,2022,1598,Petrol,150,Manual,FWD,SUV,5.0,5.0,Gray,New,121800,False,False,False
@@ -1384,7 +1384,7 @@ Dealer,Fiat,Freemont,2015,1956,Diesel,170,Automatic,4WD (automatic),SUV,5.0,7.0,
 Private,Opel,Insignia,2009,1956,Diesel,160,Manual,FWD,Sedan,4.0,5.0,Black,Used,22400,False,False,False
 Private,MINI,Cooper,2003,1598,Petrol,115,Manual,FWD,City cars,3.0,4.0,Blue,Used,9900,False,False,False
 Private,Mercedes-Benz,Klasa B,2012,1595,Petrol,122,Automatic,FWD,Compact,5.0,5.0,Gray,Used,45900,True,False,False
-Private,Volkswagen,Multivan,2006,2500,Diesel,174,Manual,4WD (automatic),SUV,5.0,,Gray,Used,14300EUR,False,False,False
+Private,Volkswagen,Multivan,2006,2500,Diesel,174,Manual,4WD (automatic),SUV,5.0,,Gray,Used,14300,False,False,False
 Private,Ford,Mondeo,2004,1998,Diesel,130,Manual,FWD,Sedan,4.0,5.0,Silver,Used,3650,False,False,True
 Private,Dodge,Challenger,2016,5654,Petrol,381,Automatic,RWD,Coupe,2.0,5.0,Silver,Used,96000,False,False,False
 Dealer,Ford,S-Max,2011,1997,Diesel,140,Manual,FWD,Minivan,5.0,7.0,Silver,Used,33500,True,True,False
@@ -1432,7 +1432,7 @@ Dealer,Fiat,Freemont,2015,1956,Diesel,170,Automatic,4WD (automatic),SUV,5.0,7.0,
 Private,Opel,Insignia,2009,1956,Diesel,160,Manual,FWD,Sedan,4.0,5.0,Black,Used,22400,False,False,False
 Private,MINI,Cooper,2003,1598,Petrol,115,Manual,FWD,City cars,3.0,4.0,Blue,Used,9900,False,False,False
 Private,Mercedes-Benz,Klasa B,2012,1595,Petrol,122,Automatic,FWD,Compact,5.0,5.0,Gray,Used,45900,True,False,False
-Private,Volkswagen,Multivan,2006,2500,Diesel,174,Manual,4WD (automatic),SUV,5.0,,Gray,Used,14300EUR,False,False,False
+Private,Volkswagen,Multivan,2006,2500,Diesel,174,Manual,4WD (automatic),SUV,5.0,,Gray,Used,14300,False,False,False
 Private,Ford,Mondeo,2004,1998,Diesel,130,Manual,FWD,Sedan,4.0,5.0,Silver,Used,3650,False,False,True
 Private,Dodge,Challenger,2016,5654,Petrol,381,Automatic,RWD,Coupe,2.0,5.0,Silver,Used,96000,False,False,False
 Dealer,Ford,S-Max,2011,1997,Diesel,140,Manual,FWD,Minivan,5.0,7.0,Silver,Used,33500,True,True,False
@@ -2272,7 +2272,7 @@ Dealer,Nissan,Qashqai,2011,2000,Petrol,140,Manual,FWD,SUV,5.0,5.0,Silver,Used,38
 Private,Seat,Alhambra,2007,1896,Diesel,115,Manual,4WD (automatic),Minivan,5.0,7.0,Black,Used,15900,False,False,False
 Private,Nissan,Maxima,2017,3498,Petrol,300,Automatic,FWD,Sedan,5.0,5.0,White,Used,62900,False,False,False
 Dealer,Opel,Corsa,2015,1398,Petrol,75,Manual,FWD,City cars,3.0,5.0,Black,Used,21900,False,False,False
-Private,Renault,Trafic,2021,1997,Diesel,150,Manual,,Minivan,5.0,9.0,Gray,Used,12915EUR,False,True,True
+Private,Renault,Trafic,2021,1997,Diesel,150,Manual,,Minivan,5.0,9.0,Gray,Used,12915,False,True,True
 Dealer,Chevrolet,Trax,2013,1686,Diesel,130,Manual,FWD,SUV,5.0,5.0,Silver,Used,39900,False,True,False
 Dealer,Opel,Insignia,2009,1998,Petrol,220,Manual,4WD (permanent),station wagon,5.0,5.0,Black,Used,30900,True,False,False
 Dealer,Honda,Jazz,2006,1339,Petrol,83,Automatic,FWD,City cars,5.0,5.0,Blue,Used,16900,True,True,False
@@ -2321,7 +2321,7 @@ Dealer,Alfa Romeo,Stelvio,2018,1995,Petrol,280,Automatic,4WD (automatic),SUV,5.0
 Dealer,Dacia,Logan,2013,1149,Petrol,75,Manual,FWD,Sedan,4.0,5.0,Blue,Used,17000,False,False,False
 Private,BMW,Seria 3,2005,1995,Diesel,163,Manual,,Sedan,5.0,5.0,Silver,Used,15800,False,False,False
 Dealer,Opel,Corsa,2015,1398,Petrol,75,Manual,FWD,City cars,3.0,5.0,Black,Used,21900,False,False,False
-Private,Renault,Trafic,2021,1997,Diesel,150,Manual,,Minivan,5.0,9.0,Gray,Used,12915EUR,False,True,True
+Private,Renault,Trafic,2021,1997,Diesel,150,Manual,,Minivan,5.0,9.0,Gray,Used,12915,False,True,True
 Dealer,Chevrolet,Trax,2013,1686,Diesel,130,Manual,FWD,SUV,5.0,5.0,Silver,Used,39900,False,True,False
 Dealer,Opel,Insignia,2009,1998,Petrol,220,Manual,4WD (permanent),station wagon,5.0,5.0,Black,Used,30900,True,False,False
 Dealer,Honda,Jazz,2006,1339,Petrol,83,Automatic,FWD,City cars,5.0,5.0,Blue,Used,16900,True,True,False
@@ -2366,7 +2366,7 @@ Dealer,Alfa Romeo,Stelvio,2018,1995,Petrol,280,Automatic,4WD (automatic),SUV,5.0
 Dealer,Dacia,Logan,2013,1149,Petrol,75,Manual,FWD,Sedan,4.0,5.0,Blue,Used,17000,False,False,False
 Private,BMW,Seria 3,2005,1995,Diesel,163,Manual,,Sedan,5.0,5.0,Silver,Used,15800,False,False,False
 Dealer,Opel,Corsa,2015,1398,Petrol,75,Manual,FWD,City cars,3.0,5.0,Black,Used,21900,False,False,False
-Private,Renault,Trafic,2021,1997,Diesel,150,Manual,,Minivan,5.0,9.0,Gray,Used,12915EUR,False,True,True
+Private,Renault,Trafic,2021,1997,Diesel,150,Manual,,Minivan,5.0,9.0,Gray,Used,12915,False,True,True
 Private,BMW,Seria 6,2006,2996,Petrol,258,Automatic,RWD,Coupe,2.0,,Gray,Used,36900,False,False,False
 Dealer,BMW,X6 M,2022,4395,Petrol,530,Automatic,4WD (permanent),SUV,5.0,5.0,Black,New,635700,False,False,False
 Private,Mitsubishi,Grandis,2008,1968,Diesel,140,Manual,,Minivan,5.0,6.0,Black,Used,18500,False,False,False
@@ -7520,7 +7520,7 @@ Dealer,Ford,Puma,2022,999,Petrol,125,Automatic,,SUV,5.0,5.0,Gray,New,119900,Fals
 Dealer,BMW,Seria 5,2006,1995,Diesel,163,Manual,RWD,Sedan,5.0,5.0,Gray,Used,19900,True,False,False
 Dealer,Hyundai,Tucson,2016,1995,Diesel,136,Manual,4WD (manual),SUV,5.0,5.0,Silver,Used,84900,True,True,False
 Private,Audi,A4,2008,1968,Diesel,170,Manual,,Sedan,4.0,,Black,Used,12800,False,False,False
-Dealer,Maserati,Ghibli,2021,2979,Petrol,430,Automatic,4WD (automatic),Sedan,,,Black,Used,124000EUR,False,False,False
+Dealer,Maserati,Ghibli,2021,2979,Petrol,430,Automatic,4WD (automatic),Sedan,,,Black,Used,124000,False,False,False
 Dealer,Škoda,Karoq,2018,1598,Diesel,115,Automatic,FWD,SUV,5.0,5.0,White,Used,109990,True,True,False
 Dealer,Citroën,C3 Picasso,2015,1598,Petrol,120,Manual,FWD,Compact,5.0,5.0,Gray,Used,39900,True,True,False
 Dealer,BMW,Seria 1,2005,1995,Diesel,163,Manual,RWD,Compact,5.0,5.0,Blue,Used,15800,False,False,False
@@ -7557,14 +7557,14 @@ Dealer,Opel,Corsa,2010,1229,Petrol,85,Manual,FWD,City cars,5.0,5.0,Silver,Used,1
 Private,Honda,Jazz,2003,1339,Petrol,83,Automatic,FWD,City cars,5.0,5.0,Black,Used,10500,True,False,False
 Private,Ford,Focus,2013,999,Petrol,100,Manual,,station wagon,5.0,,Black,Used,29400,False,False,False
 Dealer,Subaru,XV,2021,1995,Hybrid,150,Automatic,4WD (permanent),SUV,5.0,5.0,Gold,Used,159900,True,True,False
-Dealer,Maserati,Levante,2022,1995,Petrol,330,Automatic,,SUV,,,Blue,Used,117998EUR,False,False,False
+Dealer,Maserati,Levante,2022,1995,Petrol,330,Automatic,,SUV,,,Blue,Used,117998,False,False,False
 Dealer,Maserati,Levante,2021,1995,Hybrid,330,Automatic,,SUV,,,Black,Used,484000,True,True,False
 Dealer,Hyundai,I30,2022,998,Petrol,120,Manual,FWD,Compact,5.0,5.0,Brown,New,91800,False,False,False
 Dealer,Škoda,Kamiq,2022,999,Petrol,110,Automatic,FWD,SUV,5.0,5.0,Silver,New,98200,False,False,False
 Dealer,Volkswagen,T-Cross,2022,999,Petrol,110,Automatic,FWD,SUV,5.0,5.0,Blue,New,116000,False,False,False
 Dealer,Volvo,S90,2018,1969,Diesel,190,Automatic,FWD,Sedan,4.0,5.0,Black,Used,134900,False,False,False
 Dealer,BMW,Seria 5,2018,2998,Petrol,340,Automatic,4WD (automatic),Sedan,5.0,5.0,Blue,Used,164900,True,False,False
-Dealer,Maserati,Inny,2022,1995,Hybrid,300,Automatic,4WD (automatic),SUV,,,Brown,New,101700EUR,False,False,False
+Dealer,Maserati,Inny,2022,1995,Hybrid,300,Automatic,4WD (automatic),SUV,,,Brown,New,101700,False,False,False
 Dealer,BMW,Seria 6,2015,4395,Petrol,449,Automatic,4WD (automatic),Coupe,4.0,5.0,White,Used,174900,True,True,False
 Dealer,Peugeot,508,2012,1598,Petrol,156,Manual,,Sedan,4.0,5.0,Black,Used,30900,True,False,False
 Private,Toyota,Corolla Verso,2007,1794,Petrol,129,Manual,FWD,Minivan,5.0,7.0,Black,Used,24900,True,False,True
@@ -7572,7 +7572,7 @@ Private,Mercedes-Benz,CLK,2002,2597,Petrol,170,Automatic,RWD,Coupe,2.0,4.0,Silve
 Private,Audi,Q7,2006,3597,Petrol,280,Automatic,4WD (automatic),SUV,5.0,5.0,Blue,Used,39500,False,False,False
 Dealer,Volkswagen,Passat,2008,1968,Diesel,140,Automatic,FWD,station wagon,5.0,5.0,Silver,Used,26900,False,False,False
 Private,Audi,A4,2008,1968,Diesel,170,Manual,,Sedan,4.0,,Black,Used,12800,False,False,False
-Dealer,Maserati,Ghibli,2021,2979,Petrol,430,Automatic,4WD (automatic),Sedan,,,Black,Used,124000EUR,False,False,False
+Dealer,Maserati,Ghibli,2021,2979,Petrol,430,Automatic,4WD (automatic),Sedan,,,Black,Used,124000,False,False,False
 Dealer,Škoda,Karoq,2018,1598,Diesel,115,Automatic,FWD,SUV,5.0,5.0,White,Used,109990,True,True,False
 Dealer,Citroën,C3 Picasso,2015,1598,Petrol,120,Manual,FWD,Compact,5.0,5.0,Gray,Used,39900,True,True,False
 Dealer,BMW,Seria 1,2005,1995,Diesel,163,Manual,RWD,Compact,5.0,5.0,Blue,Used,15800,False,False,False
@@ -7587,7 +7587,7 @@ Private,Mercedes-Benz,Klasa B,2006,1991,Diesel,109,Manual,FWD,Compact,5.0,5.0,Si
 Private,Alfa Romeo,147,2001,1598,Petrol,105,Manual,,Compact,5.0,5.0,Silver,Used,5900,False,False,False
 Dealer,Škoda,Octavia,2019,1600,Diesel,115,Manual,FWD,station wagon,5.0,5.0,Silver,Used,61900,False,True,False
 Dealer,MINI,Clubman,2021,1499,Petrol,136,Automatic,FWD,station wagon,5.0,5.0,Silver,New,145600,False,False,False
-Dealer,Maserati,Inny,2022,1995,Hybrid,300,Automatic,4WD (automatic),SUV,,,Blue,New,95700EUR,False,False,False
+Dealer,Maserati,Inny,2022,1995,Hybrid,300,Automatic,4WD (automatic),SUV,,,Blue,New,95700,False,False,False
 Dealer,Mazda,MX-30,2022,,Electric,145,Automatic,FWD,SUV,5.0,5.0,Red,New,175660,False,False,False
 Dealer,BMW,X3,2016,1995,Diesel,190,Automatic,4WD (automatic),SUV,5.0,5.0,Black,Used,119900,True,True,False
 Dealer,Alfa Romeo,Giulia,2021,1995,Petrol,200,Automatic,RWD,Sedan,4.0,5.0,Blue,New,180300,False,False,False
@@ -7604,14 +7604,14 @@ Dealer,Opel,Corsa,2010,1229,Petrol,85,Manual,FWD,City cars,5.0,5.0,Silver,Used,1
 Private,Honda,Jazz,2003,1339,Petrol,83,Automatic,FWD,City cars,5.0,5.0,Black,Used,10500,True,False,False
 Private,Ford,Focus,2013,999,Petrol,100,Manual,,station wagon,5.0,,Black,Used,29400,False,False,False
 Dealer,Subaru,XV,2021,1995,Hybrid,150,Automatic,4WD (permanent),SUV,5.0,5.0,Gold,Used,159900,True,True,False
-Dealer,Maserati,Levante,2022,1995,Petrol,330,Automatic,,SUV,,,Blue,Used,117998EUR,False,False,False
+Dealer,Maserati,Levante,2022,1995,Petrol,330,Automatic,,SUV,,,Blue,Used,117998,False,False,False
 Dealer,Maserati,Levante,2021,1995,Hybrid,330,Automatic,,SUV,,,Black,Used,484000,True,True,False
 Dealer,Hyundai,I30,2022,998,Petrol,120,Manual,FWD,Compact,5.0,5.0,Brown,New,91800,False,False,False
 Dealer,Škoda,Kamiq,2022,999,Petrol,110,Automatic,FWD,SUV,5.0,5.0,Silver,New,98200,False,False,False
 Dealer,Volkswagen,T-Cross,2022,999,Petrol,110,Automatic,FWD,SUV,5.0,5.0,Blue,New,116000,False,False,False
 Dealer,Volvo,S90,2018,1969,Diesel,190,Automatic,FWD,Sedan,4.0,5.0,Black,Used,134900,False,False,False
 Dealer,BMW,Seria 5,2018,2998,Petrol,340,Automatic,4WD (automatic),Sedan,5.0,5.0,Blue,Used,164900,True,False,False
-Dealer,Maserati,Inny,2022,1995,Hybrid,300,Automatic,4WD (automatic),SUV,,,Brown,New,101700EUR,False,False,False
+Dealer,Maserati,Inny,2022,1995,Hybrid,300,Automatic,4WD (automatic),SUV,,,Brown,New,101700,False,False,False
 Dealer,BMW,Seria 6,2015,4395,Petrol,449,Automatic,4WD (automatic),Coupe,4.0,5.0,White,Used,174900,True,True,False
 Dealer,Peugeot,508,2012,1598,Petrol,156,Manual,,Sedan,4.0,5.0,Black,Used,30900,True,False,False
 Private,Toyota,Corolla Verso,2007,1794,Petrol,129,Manual,FWD,Minivan,5.0,7.0,Black,Used,24900,True,False,True
@@ -7973,14 +7973,14 @@ Private,BMW,Seria 1,2004,1995,Petrol,150,Automatic,RWD,Compact,5.0,5.0,Black,Use
 Dealer,Citroën,C4 Aircross,2014,1560,Diesel,115,Manual,FWD,SUV,5.0,5.0,Claret,Used,46900,True,True,False
 Private,Renault,Scenic,2006,1461,Diesel,105,Manual,,Minivan,5.0,5.0,Other,Used,8900,False,False,False
 Dealer,BMW,Seria 2,2022,1995,Diesel,149,Automatic,FWD,SUV,5.0,5.0,Green,Used,179900,True,True,False
-Dealer,Maserati,Inny,2022,1995,Hybrid,300,Automatic,4WD (automatic),SUV,,,Gray,New,95000EUR,False,False,False
-Dealer,Ferrari,Roma,2021,3855,Petrol,620,Automatic,,Coupe,2.0,4.0,Blue,Used,367611EUR,True,True,False
-Dealer,Aston Martin,Vanquish,2018,5935,Petrol,603,Automatic,,Cabriolet,2.0,,Black,Used,799500EUR,True,True,False
+Dealer,Maserati,Inny,2022,1995,Hybrid,300,Automatic,4WD (automatic),SUV,,,Gray,New,95000,False,False,False
+Dealer,Ferrari,Roma,2021,3855,Petrol,620,Automatic,,Coupe,2.0,4.0,Blue,Used,367611,True,True,False
+Dealer,Aston Martin,Vanquish,2018,5935,Petrol,603,Automatic,,Cabriolet,2.0,,Black,Used,799500,True,True,False
 Dealer,Land Rover,Range Rover,2019,4400,Diesel,339,Automatic,4WD (permanent),SUV,5.0,5.0,Gray,Used,629000,True,True,False
 Dealer,Ferrari,458 Italia,2015,4499,Petrol,569,Automatic,,Coupe,2.0,,White,Used,2000000,True,False,False
 Dealer,Porsche,911,2016,3996,Petrol,500,Automatic,,Coupe,2.0,,Other,Used,1500000,False,False,False
 Dealer,Porsche,911,2020,3745,Petrol,650,Automatic,,Coupe,2.0,4.0,Black,Used,1499000,False,False,False
-Dealer,Porsche,911,2018,3800,Petrol,690,Automatic,,Coupe,2.0,,Black,Used,436650EUR,True,True,False
+Dealer,Porsche,911,2018,3800,Petrol,690,Automatic,,Coupe,2.0,,Black,Used,436650,True,True,False
 Dealer,Citroën,C5 Aircross,2021,1499,Diesel,130,Automatic,FWD,SUV,5.0,5.0,Gray,Used,141900,True,True,False
 Dealer,Škoda,Superb,2017,1968,Diesel,190,Automatic,FWD,station wagon,5.0,5.0,White,Used,89900,True,True,False
 Dealer,Mercedes-Benz,GLA,2022,1991,Petrol,306,Automatic,4WD (permanent),SUV,5.0,5.0,Silver,New,223620,False,False,False
@@ -8030,7 +8030,7 @@ Private,BMW,Seria 1,2004,1995,Petrol,150,Automatic,RWD,Compact,5.0,5.0,Black,Use
 Dealer,Citroën,C4 Aircross,2014,1560,Diesel,115,Manual,FWD,SUV,5.0,5.0,Claret,Used,46900,True,True,False
 Private,Renault,Scenic,2006,1461,Diesel,105,Manual,,Minivan,5.0,5.0,Other,Used,8900,False,False,False
 Dealer,BMW,Seria 2,2022,1995,Diesel,149,Automatic,FWD,SUV,5.0,5.0,Green,Used,179900,True,True,False
-Dealer,Maserati,Inny,2022,1995,Hybrid,300,Automatic,4WD (automatic),SUV,,,Gray,New,95000EUR,False,False,False
+Dealer,Maserati,Inny,2022,1995,Hybrid,300,Automatic,4WD (automatic),SUV,,,Gray,New,95000,False,False,False
 Dealer,Mercedes-Benz,Klasa C,2018,1497,Petrol,183,Automatic,4WD (permanent),Coupe,2.0,4.0,White,Used,189900,True,False,False
 Private,BMW,Seria 7,2012,2993,Diesel,258,Automatic,4WD (permanent),Sedan,4.0,5.0,Black,Used,99000,True,False,False
 Private,Citroën,C4,2007,1560,Diesel,90,Manual,FWD,Compact,3.0,2.0,Silver,Used,7200,False,False,False
@@ -9160,7 +9160,7 @@ Dealer,Peugeot,2008,2022,1199,Petrol,130,Automatic,FWD,SUV,5.0,5.0,White,New,122
 Dealer,Alfa Romeo,Tonale,2022,1469,Hybrid,130,Automatic,FWD,SUV,5.0,5.0,Blue,Used,189000,False,False,False
 Private,Mercedes-Benz,Sprinter,2000,2200,Diesel,109,Manual,,Minivan,4.0,9.0,White,Used,6900,False,False,False
 Dealer,Nissan,Qashqai,2022,1332,Petrol,140,Manual,FWD,SUV,5.0,5.0,Gray,New,143900,False,False,False
-Private,BMW,X5,2016,1995,Diesel,231,Automatic,RWD,SUV,5.0,5.0,Blue,Used,24600EUR,True,False,False
+Private,BMW,X5,2016,1995,Diesel,231,Automatic,RWD,SUV,5.0,5.0,Blue,Used,24600,True,False,False
 Private,Mercedes-Benz,GLC,2018,2143,Diesel,170,Automatic,,SUV,5.0,5.0,Black,Used,164900,True,False,False
 Private,BMW,X3,2018,1995,Diesel,190,Automatic,4WD (automatic),SUV,5.0,5.0,Blue,Used,179000,True,True,False
 Private,BMW,X3,2018,1995,Diesel,190,Automatic,4WD (automatic),SUV,5.0,5.0,Blue,Used,179000,True,True,False
@@ -10478,7 +10478,7 @@ Dealer,Peugeot,3008,2022,1199,Petrol,130,Automatic,FWD,SUV,5.0,5.0,Red,New,15860
 Dealer,Peugeot,3008,2022,1199,Petrol,130,Automatic,FWD,SUV,5.0,5.0,Red,New,158600,False,False,False
 Dealer,Ford,EcoSport,2022,998,Petrol,125,Manual,FWD,SUV,5.0,5.0,Red,New,96500,False,False,False
 Dealer,Ford,EcoSport,2022,998,Petrol,125,Manual,FWD,SUV,5.0,5.0,Blue,New,96200,False,False,False
-Private,Jeep,Grand Cherokee,2018,2987,Diesel,250,Automatic,4WD (permanent),SUV,5.0,5.0,Gray,Used,31900EUR,True,True,False
+Private,Jeep,Grand Cherokee,2018,2987,Diesel,250,Automatic,4WD (permanent),SUV,5.0,5.0,Gray,Used,31900,True,True,False
 Dealer,Alfa Romeo,Giulia,2021,1995,Petrol,200,Automatic,RWD,Sedan,4.0,5.0,Gray,New,169900,False,True,False
 Private,Audi,Q3,2013,1984,Petrol,211,Automatic,4WD (permanent),SUV,5.0,5.0,Gray,Used,68800,True,False,False
 Dealer,Renault,Megane,2019,1332,Petrol,140,Automatic,FWD,Compact,5.0,5.0,Blue,Used,70000,True,False,False
@@ -10528,7 +10528,7 @@ Private,BMW,Seria 5,2015,1995,Diesel,190,Automatic,4WD (automatic),station wagon
 Private,Volkswagen,Golf,2008,1595,Petrol,102,Manual,,Compact,5.0,5.0,Claret,Used,19200,True,False,False
 Private,BMW,Seria 5,2011,1995,Diesel,184,Automatic,RWD,station wagon,5.0,5.0,Other,Used,52900,False,False,False
 Dealer,Ford,Mondeo,2016,1997,Diesel,209,Automatic,FWD,station wagon,5.0,5.0,Blue,Used,52000,False,True,False
-Private,Audi,RS Q8,2021,3996,Petrol,600,Automatic,,SUV,5.0,5.0,Gray,Used,164900EUR,True,False,False
+Private,Audi,RS Q8,2021,3996,Petrol,600,Automatic,,SUV,5.0,5.0,Gray,Used,164900,True,False,False
 Private,DS Automobiles,DS 4,2016,1598,Petrol,165,Automatic,FWD,Compact,5.0,5.0,Gray,Used,67900,True,False,False
 Private,BMW,Seria 3,1990,1990,Petrol,129,Manual,RWD,Cabriolet,2.0,4.0,White,Used,109000,False,False,False
 Dealer,BMW,Seria 5,2011,1995,Diesel,184,Manual,RWD,station wagon,5.0,5.0,Black,Used,49000,False,True,False
@@ -14982,7 +14982,7 @@ Private,Škoda,Superb,2013,1968,Diesel,140,Manual,,Sedan,5.0,5.0,Black,Used,4555
 Private,Opel,Astra,2009,1598,Petrol,105,Manual,FWD,Compact,5.0,5.0,Gray,Used,15400,False,False,False
 Private,Volkswagen,Passat,2011,1390,Petrol,122,Manual,FWD,station wagon,5.0,5.0,Brown,Used,35900,True,False,False
 Private,Saab,9-3,2006,1910,Diesel,150,Manual,FWD,station wagon,5.0,5.0,Black,Used,15900,False,False,False
-Private,Porsche,911,2007,3824,Petrol,355,Manual,RWD,Coupe,2.0,4.0,Blue,Used,70700EUR,True,False,False
+Private,Porsche,911,2007,3824,Petrol,355,Manual,RWD,Coupe,2.0,4.0,Blue,Used,70700,True,False,False
 Private,Volkswagen,Passat,2017,1968,Diesel,239,Automatic,4WD (automatic),Sedan,4.0,5.0,Black,Used,108500,True,False,False
 Private,Toyota,Auris,2011,1598,Petrol,132,Manual,FWD,Compact,5.0,5.0,Silver,Used,23800,False,False,False
 Private,BMW,Seria 4,2015,1995,Diesel,150,Manual,,Coupe,5.0,5.0,White,Used,70900,True,False,False
@@ -15468,7 +15468,7 @@ Dealer,BMW,X4,2022,2998,Petrol,360,Automatic,4WD (automatic),SUV,5.0,5.0,Black,N
 Private,Peugeot,308,2014,1560,Diesel,115,Manual,FWD,City cars,5.0,,Silver,Used,40000,False,False,False
 Private,BMW,Seria 3,2007,2497,Petrol+LPG,218,Manual,RWD,Coupe,2.0,4.0,Gray,Used,39999,False,False,False
 Private,BMW,Seria 3,2007,2497,Petrol+LPG,218,Manual,RWD,Coupe,2.0,4.0,Gray,Used,39999,False,False,False
-Private,Lincoln,Inny,2019,3496,Petrol,364,Automatic,4WD (permanent),station wagon,5.0,2.0,White,Used,69900EUR,False,True,False
+Private,Lincoln,Inny,2019,3496,Petrol,364,Automatic,4WD (permanent),station wagon,5.0,2.0,White,Used,69900,False,True,False
 Private,Volkswagen,Tiguan,2015,1390,Petrol,122,Manual,,SUV,5.0,5.0,Black,Used,59000,False,False,False
 Private,Honda,Prelude,1994,2259,Petrol,160,Manual,FWD,Coupe,2.0,4.0,Black,Used,5999,False,False,False
 Dealer,Ford,Mondeo,2018,1997,Diesel,150,Manual,FWD,station wagon,5.0,5.0,Silver,Used,66400,True,True,False
@@ -15510,7 +15510,7 @@ Private,Audi,A4,2012,1968,Diesel,136,Manual,,station wagon,5.0,5.0,Gray,Used,476
 Dealer,Volkswagen,Tiguan,2017,1968,Diesel,150,Manual,4WD (permanent),SUV,5.0,5.0,Gray,Used,94900,False,False,False
 Private,Renault,Espace,2016,1618,Petrol,200,Automatic,FWD,Minivan,5.0,7.0,Violet,Used,89950,True,True,False
 Private,BMW,Seria 5,2018,1995,Diesel,190,Automatic,RWD,Sedan,5.0,5.0,Gray,Used,156900,True,False,False
-Private,Audi,A6,2011,1968,Diesel,170,Automatic,FWD,station wagon,5.0,5.0,Blue,Used,9785EUR,True,False,False
+Private,Audi,A6,2011,1968,Diesel,170,Automatic,FWD,station wagon,5.0,5.0,Blue,Used,9785,True,False,False
 Private,Kia,Optima,2016,1685,Diesel,141,Manual,FWD,station wagon,5.0,5.0,White,Used,66900,True,True,False
 Private,Mitsubishi,Pajero,1999,2972,Petrol,177,Manual,4WD (manual),SUV,5.0,5.0,Silver,Used,29500,False,False,False
 Private,Mazda,6,2013,2191,Diesel,150,Manual,FWD,Sedan,5.0,,Gray,Used,47000,False,False,False
@@ -15547,7 +15547,7 @@ Dealer,Audi,A3,2018,1498,Petrol,150,Automatic,FWD,Sedan,4.0,5.0,Black,Used,94900
 Private,Jaguar,XJ,2011,2993,Diesel,275,Automatic,RWD,Sedan,4.0,5.0,Black,Used,79900,True,False,False
 Private,BMW,M5,2019,4395,Petrol,625,Automatic,4WD (automatic),Sedan,4.0,5.0,Other,Used,588999,True,True,False
 Private,Mercedes-Benz,Klasa E,2007,2148,Diesel,170,Automatic,RWD,station wagon,5.0,5.0,Black,Used,19900,False,False,False
-Private,Iveco,Daily,1992,2500,Diesel,120,Manual,4WD (manual),Minivan,2.0,2.0,Other,Used,60000EUR,False,False,False
+Private,Iveco,Daily,1992,2500,Diesel,120,Manual,4WD (manual),Minivan,2.0,2.0,Other,Used,60000,False,False,False
 Private,Nissan,Patrol,2000,2953,Diesel,158,Manual,,SUV,5.0,7.0,Other,Used,59999,False,False,False
 Dealer,BMW,Seria 3,2019,1995,Diesel,190,Automatic,4WD (automatic),Sedan,4.0,5.0,Gray,Used,173430,True,True,False
 Private,Mercedes-Benz,SL,2016,4663,Petrol,455,Automatic,RWD,Cabriolet,2.0,2.0,Gray,Used,289000,False,False,False
@@ -18377,7 +18377,7 @@ Private,Fiat,Sedici,2010,1586,Petrol,120,Manual,4WD (manual),SUV,5.0,5.0,Blue,Us
 Private,Citroën,C3,2020,1199,Petrol,83,Manual,,City cars,5.0,5.0,Gray,Used,31900,False,False,True
 Private,Opel,Zafira,2005,1910,Diesel,120,Manual,FWD,Minivan,5.0,7.0,Silver,Used,10900,False,False,False
 Dealer,Opel,Astra,2012,1956,Diesel,164,Automatic,FWD,Compact,5.0,5.0,White,Used,33900,True,True,False
-Private,Mazda,5,2009,1999,Petrol,145,Manual,FWD,Minivan,5.0,7.0,Black,Used,4300EUR,False,False,False
+Private,Mazda,5,2009,1999,Petrol,145,Manual,FWD,Minivan,5.0,7.0,Black,Used,4300,False,False,False
 Dealer,Citroën,C4,2013,1560,Diesel,92,Manual,FWD,Compact,5.0,5.0,Silver,Used,25900,False,True,False
 Private,Volkswagen,Touareg,2007,2967,Diesel,224,Automatic,4WD (automatic),SUV,5.0,5.0,Blue,Used,16000,False,False,True
 Dealer,Ford,Escape,2016,1600,Petrol,180,Automatic,FWD,SUV,5.0,5.0,Silver,Used,54900,True,True,False
@@ -18421,7 +18421,7 @@ Private,Fiat,Sedici,2010,1586,Petrol,120,Manual,4WD (manual),SUV,5.0,5.0,Blue,Us
 Private,Citroën,C3,2020,1199,Petrol,83,Manual,,City cars,5.0,5.0,Gray,Used,31900,False,False,True
 Private,Opel,Zafira,2005,1910,Diesel,120,Manual,FWD,Minivan,5.0,7.0,Silver,Used,10900,False,False,False
 Dealer,Opel,Astra,2012,1956,Diesel,164,Automatic,FWD,Compact,5.0,5.0,White,Used,33900,True,True,False
-Private,Mazda,5,2009,1999,Petrol,145,Manual,FWD,Minivan,5.0,7.0,Black,Used,4300EUR,False,False,False
+Private,Mazda,5,2009,1999,Petrol,145,Manual,FWD,Minivan,5.0,7.0,Black,Used,4300,False,False,False
 Dealer,Citroën,C4,2013,1560,Diesel,92,Manual,FWD,Compact,5.0,5.0,Silver,Used,25900,False,True,False
 Private,Volkswagen,Touareg,2007,2967,Diesel,224,Automatic,4WD (automatic),SUV,5.0,5.0,Blue,Used,16000,False,False,True
 Dealer,Ford,Escape,2016,1600,Petrol,180,Automatic,FWD,SUV,5.0,5.0,Silver,Used,54900,True,True,False
@@ -18457,7 +18457,7 @@ Private,Fiat,Sedici,2010,1586,Petrol,120,Manual,4WD (manual),SUV,5.0,5.0,Blue,Us
 Private,Citroën,C3,2020,1199,Petrol,83,Manual,,City cars,5.0,5.0,Gray,Used,31900,False,False,True
 Private,Opel,Zafira,2005,1910,Diesel,120,Manual,FWD,Minivan,5.0,7.0,Silver,Used,10900,False,False,False
 Dealer,Opel,Astra,2012,1956,Diesel,164,Automatic,FWD,Compact,5.0,5.0,White,Used,33900,True,True,False
-Private,Mazda,5,2009,1999,Petrol,145,Manual,FWD,Minivan,5.0,7.0,Black,Used,4300EUR,False,False,False
+Private,Mazda,5,2009,1999,Petrol,145,Manual,FWD,Minivan,5.0,7.0,Black,Used,4300,False,False,False
 Dealer,Citroën,C4,2013,1560,Diesel,92,Manual,FWD,Compact,5.0,5.0,Silver,Used,25900,False,True,False
 Private,Volkswagen,Touareg,2007,2967,Diesel,224,Automatic,4WD (automatic),SUV,5.0,5.0,Blue,Used,16000,False,False,True
 Dealer,Ford,Escape,2016,1600,Petrol,180,Automatic,FWD,SUV,5.0,5.0,Silver,Used,54900,True,True,False
@@ -20113,7 +20113,7 @@ Dealer,Peugeot,308,2018,1499,Diesel,130,Manual,FWD,station wagon,5.0,5.0,Blue,Us
 Private,Toyota,Auris,2017,1598,Diesel,112,Manual,FWD,Compact,5.0,5.0,Other,Used,52500,False,False,False
 Private,Opel,Astra,2009,1364,Petrol,90,Manual,,Compact,3.0,5.0,Black,Used,21500,False,False,False
 Private,Kia,Sportage,2017,1685,Diesel,141,Automatic,FWD,SUV,5.0,5.0,White,Used,95000,False,False,False
-Private,Toyota,Camry,2019,2487,Hybrid,178,Automatic,FWD,Sedan,4.0,5.0,White,Used,15500EUR,True,False,True
+Private,Toyota,Camry,2019,2487,Hybrid,178,Automatic,FWD,Sedan,4.0,5.0,White,Used,15500,True,False,True
 Private,Renault,Kadjar,2020,1461,Diesel,115,Manual,FWD,SUV,5.0,5.0,White,Used,82900,False,False,False
 Dealer,Opel,Corsa,2015,1229,Petrol,70,Manual,FWD,City cars,5.0,5.0,Gray,Used,38900,False,False,False
 Private,Mitsubishi,Lancer,2009,1499,Petrol,109,Manual,FWD,Compact,5.0,5.0,Red,Used,20850,True,False,False
@@ -20155,7 +20155,7 @@ Dealer,Peugeot,308,2018,1499,Diesel,130,Manual,FWD,station wagon,5.0,5.0,Blue,Us
 Private,Toyota,Auris,2017,1598,Diesel,112,Manual,FWD,Compact,5.0,5.0,Other,Used,52500,False,False,False
 Private,Opel,Astra,2009,1364,Petrol,90,Manual,,Compact,3.0,5.0,Black,Used,21500,False,False,False
 Private,Kia,Sportage,2017,1685,Diesel,141,Automatic,FWD,SUV,5.0,5.0,White,Used,95000,False,False,False
-Private,Toyota,Camry,2019,2487,Hybrid,178,Automatic,FWD,Sedan,4.0,5.0,White,Used,15500EUR,True,False,True
+Private,Toyota,Camry,2019,2487,Hybrid,178,Automatic,FWD,Sedan,4.0,5.0,White,Used,15500,True,False,True
 Private,Renault,Kadjar,2020,1461,Diesel,115,Manual,FWD,SUV,5.0,5.0,White,Used,82900,False,False,False
 Dealer,Opel,Corsa,2015,1229,Petrol,70,Manual,FWD,City cars,5.0,5.0,Gray,Used,38900,False,False,False
 Private,Mitsubishi,Lancer,2009,1499,Petrol,109,Manual,FWD,Compact,5.0,5.0,Red,Used,20850,True,False,False
@@ -21576,7 +21576,7 @@ Private,Renault,Scenic,2015,1197,Petrol,132,Manual,FWD,Minivan,5.0,5.0,Gray,Used
 Private,Opel,Astra,2007,1796,Petrol,140,Manual,FWD,Cabriolet,2.0,5.0,Other,Used,17900,True,False,False
 Private,Mazda,6,2011,2184,Diesel,180,Manual,,station wagon,5.0,5.0,Gray,Used,28000,False,False,False
 Private,Honda,Legend,2006,3471,Petrol,295,Automatic,4WD (permanent),Sedan,4.0,5.0,Black,Used,31900,True,False,False
-Private,BMW,Seria 7,2011,2993,Diesel,245,Automatic,RWD,Sedan,4.0,5.0,Gray,Used,17400EUR,True,False,False
+Private,BMW,Seria 7,2011,2993,Diesel,245,Automatic,RWD,Sedan,4.0,5.0,Gray,Used,17400,True,False,False
 Dealer,Škoda,Fabia,2015,999,Petrol,75,Manual,FWD,Small cars,5.0,5.0,Yellow,Used,43400,True,False,False
 Dealer,Volkswagen,Golf,2016,1598,Diesel,110,Manual,FWD,station wagon,5.0,5.0,Red,Used,51900,True,False,False
 Dealer,MINI,Clubman,2017,1998,Petrol,192,Automatic,4WD (permanent),Compact,5.0,5.0,Gray,Used,94900,True,False,False
