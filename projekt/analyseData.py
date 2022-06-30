@@ -20,6 +20,9 @@ yearAVGPrice = yearPrice.groupby(['year']).mean().reset_index()
 fig = px.scatter(yearAVGPrice, "year", "price", title="Average price of vehicle grouped by year")
 fig.show()
 
+fig = px.scatter(df, "year", "price", title="Vehicle price depending on the year of production")
+fig.show()
+
 yearPrice = pd.DataFrame()
 yearPrice['year'] = df.year
 yearPrice['mileage'] = df.mileage
