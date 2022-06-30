@@ -80,6 +80,8 @@ while True:
                         newVehicle['serviced at aso'] = value
                     case 'Stan':
                         newVehicle['state'] = value
+                    case 'Przebieg':
+                        newVehicle['mileage'] = value
 
             newVehicle['price'] = vehicle.select('span.offer-price__number')[0].text.strip()
             newVehicle['currency'] = vehicle.select('span.offer-price__number span.offer-price__currency')[0].text.strip()
