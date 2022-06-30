@@ -107,7 +107,8 @@ print(df['price'].unique())
 
 df['price'] = df['price'].str.replace('EUR', '')\
                             .str.replace('        PLN', '', regex=False)\
-                            .str.replace(' ', '')
+                            .str.replace(' ', '')\
+                            .str.replace(',', '.')
 
 print(df['price'].unique())
 
