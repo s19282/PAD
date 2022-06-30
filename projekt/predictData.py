@@ -8,6 +8,7 @@ from sklearn.tree import DecisionTreeRegressor
 
 
 def prepareSets(x, y):
+    # TODO: normalize data
     for col in x.columns:
         if x[col].dtypes == 'object':
             x[col] = le.fit_transform(x[col])
