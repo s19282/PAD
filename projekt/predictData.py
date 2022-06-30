@@ -1,7 +1,8 @@
 import pandas as pd
+import numpy as np
 from sklearn import preprocessing
 from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_squared_error, mean_absolute_error
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor
 
@@ -18,11 +19,10 @@ def fitModel(model, x_train, x_test, y_train, y_test):
     model.fit(x_train, y_train)
     Y_pred = model.predict(x_test)
 
-    mse_errors = mean_squared_error(y_test.values, Y_pred)
-    mae_errors = mean_absolute_error(y_test.values, Y_pred)
+    print('RMSE: %.3f' % np.sqrt(mean_squared_error(y_test.values, Y_pred)))
+    print('MAE: %.3f' % mean_absolute_error(y_test.values, Y_pred))
+    print('R^2: %.3f' % r2_score(y_test.values, Y_pred))
 
-    print('Mean squared error: %.3f' % mse_errors)
-    print('Mean absolute error: %.3f' % mae_errors)
     print('----------------------------------------')
 
 
@@ -62,6 +62,9 @@ le = preprocessing.LabelEncoder()
 
 lr = LinearRegression()
 evaluateModel(lr, "LinearRegression")
+
+# lr2 = LogisticRegression(max_iter=1000)
+# evaluateModel(lr2, "LogisticRegression")
 
 dtr = DecisionTreeRegressor(max_depth=12)
 evaluateModel(dtr, "DecisionTreeRegression")
