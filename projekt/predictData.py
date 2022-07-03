@@ -5,10 +5,21 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor
+import matplotlib.pyplot as plt
+
+
+def plotPredictions(y_pred, y_test):
+    samples = len(y_pred)
+    plt.figure()
+    plt.scatter(np.arange(samples), y_pred, c='r', label='predictions')
+    plt.scatter(np.arange(samples), y_test, c='c', label='actual values', marker='x')
+    plt.legend()
+    plt.xlabel('Sample numbers')
+    plt.ylabel('Values')
+    plt.show()
 
 
 def prepareSets(x, y):
-    # TODO: normalize data
     for col in x.columns:
         if x[col].dtypes == 'object':
             x[col] = le.fit_transform(x[col])
@@ -16,13 +27,25 @@ def prepareSets(x, y):
     return train_test_split(x, y, test_size=0.2, random_state=42)
 
 
+def minimize_loss(x_train, y_train):
+    X_with_bias = np.hstack((np.ones((x_train.shape[0], 1)), x_train))
+    optimal_w = np.matmul(
+        np.linalg.inv(np.array(np.matmul(X_with_bias.T, X_with_bias), dtype='float64')),
+        np.matmul(X_with_bias.T, y_train),
+    )
+    return optimal_w[1:], optimal_w[0]
+
+
 def fitModel(model, x_train, x_test, y_train, y_test):
+    # weights, bias = minimize_loss(x_train=x_train, y_train=y_train)
+    # model.set_params(weights, bias)
     model.fit(x_train, y_train)
     Y_pred = model.predict(x_test)
 
     print('RMSE: %.3f' % np.sqrt(mean_squared_error(y_test.values, Y_pred)))
     print('MAE: %.3f' % mean_absolute_error(y_test.values, Y_pred))
     print('R^2: %.3f' % r2_score(y_test.values, Y_pred))
+    # plotPredictions(y_pred=Y_pred, y_test=y_test.values)
 
     print('----------------------------------------')
 
