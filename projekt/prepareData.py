@@ -43,6 +43,7 @@ print(df['horse power'].unique())
 print(df['capacity'].unique())
 
 df.capacity = df.capacity.str.replace(' cm3', '').str.replace(' ', '')
+df.dropna(subset='capacity', how='all', inplace=True)
 
 print(df['capacity'].unique())
 
