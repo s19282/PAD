@@ -111,6 +111,11 @@ df['price'] = df['price'].str.replace('EUR', '')\
                             .str.replace(' ', '')\
                             .str.replace(',', '.')
 
+df['mileage'] = df['mileage'].str.replace(' km', '')\
+                            .str.replace(' ', '')
+df.dropna(subset='mileage', how='all', inplace=True)
+
+
 print(df['price'].unique())
 
 print(df['currency'].unique())
