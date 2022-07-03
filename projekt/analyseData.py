@@ -19,23 +19,25 @@ yearPrice = pd.DataFrame()
 yearPrice['year'] = df.year
 yearPrice['price'] = df.price
 
-yearAVGPrice = yearPrice.groupby(['year']).mean().reset_index()
+yearAVGPrice = yearPrice.groupby(['year']).median().reset_index()
 fig = go.Figure()
 fig.add_trace(
         go.Scatter(x=yearAVGPrice["year"], y=yearAVGPrice["price"], mode="markers"))
-fig.update_layout(title="Average price of vehicle grouped by year", xaxis_title="Year")
+fig.update_layout(title="Median price of vehicle grouped by year", xaxis_title="Year")
 fig.show()
 
 yearMileage = pd.DataFrame()
 yearMileage['year'] = df.year
 yearMileage['mileage'] = df.mileage
 
-yearAVGMileage = yearMileage.groupby(['year']).mean().reset_index()
+yearAVGMileage = yearMileage.groupby(['year']).median().reset_index()
 fig = go.Figure()
 fig.add_trace(
         go.Scatter(x=yearAVGMileage["year"], y=yearAVGMileage["mileage"], mode="markers"))
-fig.update_layout(title="Average mileage of vehicle grouped by year", xaxis_title="Year")
+fig.update_layout(title="Median mileage of vehicle grouped by year", xaxis_title="Year")
 fig.show()
+
+
 
 # fig = px.scatter(df.iloc[:, [14, 6]].groupby(['price']).mean().reset_index(), "price", "horsePower",
 #                  title="Average horse power of vehicle grouped by price")
